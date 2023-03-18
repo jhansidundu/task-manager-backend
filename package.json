@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "dev-start": "nodemon server.js",
+    "start": "node server.js",
+    "build": "webpack"
   },
   "author": "Dundu Jhansi",
   "license": "ISC",
@@ -17,7 +19,9 @@
     "express": "^4.18.2",
     "joi": "^17.8.3",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^7.0.1"
+    "mongoose": "^7.0.1",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.21"
