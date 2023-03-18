@@ -1,5 +1,5 @@
 const Joi = require('joi')
-const Task = require('../models/Task')
+const Task = require('../models/task')
 const Response = require('../util/response')
 
 const addOrUpdateTaskSchema = Joi.object({
